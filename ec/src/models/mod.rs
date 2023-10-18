@@ -9,6 +9,8 @@ pub mod mnt6;
 pub mod short_weierstrass;
 pub mod twisted_edwards;
 
+pub mod double_odd;
+
 /// Elliptic curves can be represented via different "models" with varying
 /// efficiency properties.
 /// `CurveConfig` bundles together the types that are common
